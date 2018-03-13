@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Panda News</title>
+
+    <!-- Style -->
+    <link href="css/style.css" rel="stylesheet" />
+    <!-- end -->
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&amp;subset=cyrillic,cyrillic-ext" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700&amp;subset=cyrillic,cyrillic-ext" rel="stylesheet">
+    <!-- end -->
+
+</head>
+<body>
+
+<div class="wrapper">
+
+    <section class="container">
+        
+        <header class="header">
+            <img src="assets/svg/apple-bar.svg" class="header-bar" />
+            <h1 class="header-caption">Panda News</h1>
+            
+            <div class="header__container">
+                <a href="" class="header-text">Избранные</a>
+                <a href="" class="header-text--active">Всё</a>
+            </div>
+            
+            <div class="header__search-bar">
+                <input type="search" class="header-field" id="search" placeholder="Введите название монеты..."/>
+                <label for="search" class="header-label">
+                    <img src="assets/svg/search.svg" class="header-icon" />
+                </label>
+            </div>
+        </header>
+        
+        <main class="main">
+            
+            <article class="coin__container">
+                
+                <div class="coin__content">
+                    <img src="assets/svg/eth-logo.svg" class="coin-logo" />
+                    <div class="coin__texts">
+                        <h2 class="coin-caption">Ethereum</h2>
+                        <p class="coin-text">1 109,16 USD <span class="coin-green">(0,94%)</span></p>
+                    </div>
+                    <div class="coin-star"></div>
+                </div>
+                
+                <footer class="coin__footer">
+                    <img src="assets/svg/newspaper.svg" class="coin-icon" />
+                    <img src="assets/svg/users.svg" class="coin-icon" />
+                </footer>
+                
+            </article>
+
+            <article class="coin__container">
+
+                <div class="coin__content">
+                    <img src="assets/svg/btc-logo.svg" class="coin-logo" />
+                    <div class="coin__texts">
+                        <h2 class="coin-caption">Bitcoin</h2>
+                        <p class="coin-text">9 865,10 USD <span class="coin-red">(-2,96%)</span></p>
+                    </div>
+                    <div class="coin-star"></div>
+                </div>
+
+                <footer class="coin__footer">
+                    <img src="assets/svg/newspaper.svg" class="coin-icon" />
+                    <img src="assets/svg/users.svg" class="coin-icon" />
+                </footer>
+
+            </article>
+
+            <article class="coin__container">
+
+                <div class="coin__content">
+                    <img src="assets/svg/ripple-logo.svg" class="coin-logo" />
+                    <div class="coin__texts">
+                        <h2 class="coin-caption">Ripple</h2>
+                        <p class="coin-text">1,06 USD <span class="coin-red">(-4,88%)</span></p>
+                    </div>
+                    <div class="coin-star"></div>
+                </div>
+
+                <footer class="coin__footer">
+                    <img src="assets/svg/newspaper.svg" class="coin-icon" />
+                    <img src="assets/svg/users.svg" class="coin-icon" />
+                </footer>
+
+            </article>
+            
+        </main>
+
+        <footer class="footer">
+            <div class="footer-icon"></div>
+            <div class="footer-icon"></div>
+            <div class="footer-icon"></div>
+        </footer>
+        
+    </section>
+
+</div>
+</body>
+</html>
